@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+	font-family: "Inter", sans-serif;
+}
+
+html {
+	scroll-behavior: smooth
+}
+
+body {
+	overflow-x: hidden;
+}
+
+h2 {
+	font-size: 2.25em;
+	font-weight: 550;
+	margin-bottom: 50px;
+}
+
+p {
+	font-size: 1.15em;
+}
+
+nav.navbar {
+	background-color: rgba(0, 0, 0, .75);
+	backdrop-filter: blur(5px);
+	padding: 15px 25px;
+	border-radius: 10px;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35px;
+}
+
+nav a {
+	color: #FFFFFF;
+	margin: 0 20px;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+	color: #FFFFFF;
+	text-decoration-color: #FFFFFF;
+}
+
+header {
+	min-height: 100vh;
+	text-align: center;
+	padding-top: 13.5%;
+}
+
+header h1 {
+	font-size: 2.75em;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+
+header h3 {
+	font-size: 1.15em;
+}
+
+span.purple-gradient {
+	width: 50vw;
+	height: 50vw;
+	z-index: -1;
+
+	background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(102, 16, 242, 0.40) 0%, rgba(102, 16, 242, 0.30) 24.48%, rgba(102, 16, 242, 0.00) 100%);
+}
+
+span.blue-gradient {
+	width: 50vw;
+	height: 50vw;
+	z-index: -1;
+
+	background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(67, 153, 255, 0.50) 0%, rgba(67, 153, 255, 0.24) 48.96%, rgba(67, 153, 255, 0.00) 100%);
+}
+
+div.full {
+	min-height: 100vh;
+}
+
+div.panel {
+	background-color: rgba(0, 0, 0, .75);
+	backdrop-filter: blur(5px);
+	color: #FFFFFF;
+	border-radius: 10px;
+	padding: 50px 65px;
+}
+
+div.panel p {
+	font-size: 1.15em;
+	margin-bottom: 0;
+}
+
+div.tableauPlaceholder {
+	margin-top: 75px;
+}
+
+div.section {
+	margin-top: 150px;
+	padding-top: 50px;
+}
+
+@media (max-width: 992px) {
+
+	nav.navbar {
+		display: none;
+	}
+
+	header {
+		padding-top: 22%;
+	}
+
+}
+
+@media (max-width: 576px) {
+
+	div.container {
+		padding: 0 35px;
+	}
+
+	header {
+		padding-top: 27%;
+	}
+
+}
