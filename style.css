@@ -68,6 +68,7 @@ header h1 {
 header h3 {
 	color: #603FEF;
 	font-size: 1.25em;
+	line-height: 1.35em;
 }
 
 div.row {
@@ -159,7 +160,7 @@ footer p {
 	}
 
 	header {
-		padding-top: 25%;
+		padding-top: 23%;
 	}
 
 	div.panel {
