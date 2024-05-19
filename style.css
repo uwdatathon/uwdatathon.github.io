@@ -85,6 +85,7 @@ span.blue-gradient {
 }
 
 div.row {
+	margin-left: 0;
 	max-width: 100%;
 }
 
@@ -154,7 +155,7 @@ footer p {
 	span.purple-gradient, span.blue-gradient {
 		display: none;
 	}
-	
+
 }
 
 @media (max-width: 992px) {
@@ -181,6 +182,14 @@ footer p {
 
 	header {
 		padding-top: 30%;
+	}
+
+	div.panel {
+		margin-bottom: 50px;
+	}
+
+	footer {
+		margin-top: 50px;
 	}
 
 }
