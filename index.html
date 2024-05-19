@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>DubsTech Datathon 2024</title>
+	<title>Crossy Road | DubsTech Datathon 2024</title>
 
-	<link rel = "shortcut icon" type = "image" href = "icon.png">
+	<link rel = "shortcut icon" type = "image" href = "icon.svg">
 
 	<!-- Bootstrap 4.1 CSS Library -->
 	<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity = "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin = "anonymous">
@@ -16,7 +16,7 @@
 <body>
 
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg">
+	<nav class="navbar navbar-expand-lg fixed-top">
 
 		<div class="container">
 
@@ -24,11 +24,11 @@
 
 				<ul class="navbar-nav">
 
-					<a href = "#us-borders">US Borders</a>
+					<a href = "#crossing-categories">Crossing Categories</a>
 
-					<a href = "#port-comparisons">Port Comparisons</a>
+					<a href = "#busiest-states">Busiest States</a>
 
-					<a href = "#seasonal-map">Seasonal Map</a>
+					<a href = "#weather-traffic">Weather & Traffic</a>
 
 				</ul>
 
@@ -40,9 +40,11 @@
 
 	<header>
 
-		<span class = "blue-gradient" style = "position: absolute; right: 0; top: -15%;"></span>
+		<span class = "purple-gradient" style = "position: absolute; left: -15%; top: -15%;"></span>
 
-		<span class = "purple-gradient" style = "position: absolute; left: -5%; top: 30%;"></span>
+		<span class = "blue-gradient" style = "position: absolute; right: 0; top: -5%;"></span>
+
+		<span class = "blue-gradient" style = "position: absolute; left: 0%; top: 35%;"></span>
 
 		<div class = "container">
 
@@ -54,11 +56,11 @@
 
 					<h1>
 
-						Government: Analyzing and Predicting Inbound Crossings the U.S.-Canada and the U.S.-Mexico Border
+						Analyzing and Predicting Inbound Crossings the U.S.-Canada and the U.S.-Mexico Border
 
 					</h1>
 
-					<h3>Kevin Wijaya, Samuel Purnama, Jove Winston, Reuben Ailin, Carolyn Chen</h3>
+					<h3>Carolyn Chen, Jove Winston, Kevin Wijaya, Reuben Ailin, Samuel Purnama</h3>
 
 				</div>
 
@@ -78,7 +80,7 @@
 
 				<p>
 
-					All Foods has been a staple for many when it comes to groceries. However, recent changes to operating hours have resulted in a loss of $50,000 in revenue as well as $40,000 in profit. Our team has created multiple data visualization dashboards for our client to understand their products and market at a glance.
+					President Biden’s 2024 Budget allocates nearly $25 billion to U.S. Customs and Border Protection (CBP) and Immigration and Customs Enforcement (ICE). However, maximizing the value of this budget requires effective resource allocation and data-driven metrics. Our team offers multiple data visualization dashboards and insightful data relationships to help CBP assess performance at the US-Mexico and US-Canada borders. Effectively optimizing <b>trade facilitation, bolster security measures, and retaining international cooperation between Canada and Mexico</b>.
 
 				</p>
 
@@ -88,7 +90,33 @@
 
 	</div>
 
-	<div class = "container section full" id = "us-borders">
+	<div class = "container">
+
+		<div class = "row">
+
+			<div class = "col-sm-1"></div>
+
+				<div class = "col-sm-10">
+
+				<p style = "margin-bottom: 50px;">
+
+					To begin, we started by mapping an overview of the active checkpoints throughout the United States surrounding the Canada and Mexico borders with a monthly average of over 2000 crossings. With this vast amount of information, we decided to narrow our focus by categorizing most crossings into two different categories to find out what process and where needed to be optimized.
+
+				</p>
+
+			</div>
+
+		</div>
+
+		<div class = "col-sm-12">
+
+			<div class='tableauPlaceholder m-auto' id='viz1716132274274' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dash2_17161271130940&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash2_17161271130940&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dash2_17161271130940&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716132274274');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		</div>
+
+	</div>
+
+	<div class = "container section full" id = "crossing-categories">
 
 		<div class = "row">
 
@@ -96,36 +124,80 @@
 
 			<div class = "col-sm-10">
 
-				<h2>US Borders</h2>
+				<h2>Commercial & Non-Commercial Crossings</h2>
 
-				<p>
+				<p style = "margin-bottom: 50px;">
 
-					The store should refrain from selling items that cost more than their selling price, as they result in negative profits. The client can use the below visualization to filter by item and analyze peak seasons at a glance.
+					The two main categories we discovered were commercial and non-commercial crossings with definitions as follows:
 
 					<br><br>
 
-					Avocados exemplify this trend — there was a significant positive total profit when the store was growing the avocados themselves, but they were forced to sell at a loss when the cost of acquiring avocados went up. To prevent loss, the store should maximize products that can be acquired or produced at low costs, and either 1. decrease their stock or 2. increase the price of these items during seasons when they cost extra to acquire and are not in demand. Increasing the price of items is a viable option when the demand does not decrease significantly in periods of negative profit.
+					<span class = "highlight">
+
+						Non-Commercial Crossings :  Pedestrians, Cars, Buses, and Trains
+
+						<br>
+
+						Commercial Crossings : Trucks (Loaded/Unloaded) and Rails
+
+					</span>
+
+					<br><br>
+
+					These definitions are revolved around the idea that these two categories requires different functions and tools to pass through border immigration and inspection. In addition, these two category of vehicles have different ‘reasons of intent’ to enter the country, thus would need different cases for handling
+
+					<br><br>
+
+					With that we constructed multiple visualizations to display average crosses during certain months and change in frequency of crossing over time.
+
+					<br><br>
+
+					In the commercial setting, the US-Canada border initially had a higher average number of crossings. However, starting around 2019, the US-Mexico border experienced a noticeable rise in frequency, eventually surpassing Canada in the average number of crossings each month. 
+					These indications showcase Mexico has a higher metric of change in people entering the country in recent years over Canada.
+
+					<br><br>
+
+					Meanwhile, in the non-commercial setting, the average non-commercial crossings per month in the US-Mexico borders consistently outnumbers the US-Canada borders. Yet, the US-Canada borders increases 60% to its peak during July to August every year. This likely could indicate a rise in tourism within the US-Canada around the summer season. Furthermore, even in this sector the US-Mexico border shows a strong growth in crosses. 
+
+					<br><br>
+
+					Thus, with overall rise in activity from the US-Mexico border annually, and a small spikes during summer times for the Canadian border, the CBP should: 
+
+					<br><br>
+
+					<span class = "highlight">
+						1. Allocate more resources towards the borders with Mexico
+
+						<br>
+
+						2. Faciliate Mexico with more heavy duty equipment for industry screening 
+
+						<br>
+
+						3. Rotate resources to Canada between July-August
+					</span>
+
+					<br><br>
+
+					A viable option could be to temporary hire security in Canada during peak months, but a regular change in employment may pose a security risk.
 
 				</p>
 
-				<div class='tableauPlaceholder' id='viz1716078331710' style="position: relative;">
-					<noscript>
-
-						<a href='#'><img alt='Commercial Crosses ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon_17160782168470&#47;CommercialCrosses&#47;1_rss.png' style='border: none' /></a>
-
-					</noscript>
-
-					<object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Datathon_17160782168470&#47;CommercialCrosses' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Datathon_17160782168470&#47;CommercialCrosses&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object>
-
-				</div>
-
 			</div>
+
+		</div>
+
+		<div class = "col-sm-12">
+
+			<div class='tableauPlaceholder m-auto' id='viz1716131259599' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dash2_17161271130940&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash2_17161271130940&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dash2_17161271130940&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716131259599');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+			<div class='tableauPlaceholder m-auto' id='viz1716130453644' style='position: relative'><noscript><a href='#'><img alt='Dashboard 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dash2_17161271130940&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Dash2_17161271130940&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Da&#47;Dash2_17161271130940&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716130453644');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 		</div>
 
 	</div>  
 
-	<div class = "container section full" id = "port-comparisons">
+	<div class = "container section full" id = "busiest-states">
 
 		<div class = "row">
 
@@ -133,15 +205,15 @@
 
 			<div class = "col-sm-10">
 
-				<h2>Port Comparisons</h2>
+				<h2>Top 3 Highest Crossing States</h2>
 
 				<p>
 
-					Items with a negative average unit price margin that do not sell well should be removed from the store. However, the store can increase the price of items with high quantities sold that have a negative unit price margin, as the demand is high enough to warrant this change.
+					To bring our analysis further, we now know more emphasis should be place on US-Mexico borders, but specifically which states should be optimized with resources. To do this we did a deep dive in the performance of each state.
 
 					<br><br>
 
-					To determine these items, the client can use the visualization visualization for the average unit price margin and the sum of the quality sold, and filter by negative unit price margin.
+					With our visualizations from 1996 to 2023, Texas consistently led in non-commercial crossings among the top three busiest states, experiencing significant growth until the early 2000s. While, California gradually closed the gap with Texas, especially after 2010. This growth metric could reflect the growing opportunities or recreational appeal California offers. Hence, It would be recommended to allocate resources to tackle the possible future increase of crossings on the <span class = "highlight">Mexico-California and Mexico-Texas border</span>.
 
 				</p>
 
@@ -149,9 +221,13 @@
 
 		</div>
 
-	</div> 
+		<div class = "col-sm-12">
 
-	<div class = "container section full" id = "seasonal-map">
+			<div class='tableauPlaceholder m-auto' id='viz1716130901715' style='position: relative'><noscript><a href='#'><img alt='Busiest States ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bu&#47;BusiestStates1&#47;BusiestStates&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BusiestStates1&#47;BusiestStates' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bu&#47;BusiestStates1&#47;BusiestStates&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716130901715');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+			<div class='tableauPlaceholder m-auto' id='viz1716130876406' style='position: relative'><noscript><a href='#'><img alt='Busiest Ports ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bu&#47;BusiestPorts1&#47;BusiestPorts&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BusiestPorts1&#47;BusiestPorts' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bu&#47;BusiestPorts1&#47;BusiestPorts&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716130876406');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		</div>
 
 		<div class = "row">
 
@@ -159,11 +235,24 @@
 
 			<div class = "col-sm-10">
 
-				<h2>Seasonal Map</h2>
+				<h3 style= "margin-top: 75px;">Commercial Vehicle Crossings in Texas: 1996-2023</h3>
 
-				<p>
+				<p style = "margin: 50px 0 75px 0;">
 
-					Basket marketing is a tactical maneuver the store can employ to increase the number of impulse purchases a customer makes. Through this data visualization, by filtering for type of product, the client can determine items that are often bought with it. Placing items that are often bought together in the same section of the store will increase sales, as customers may be more inclined to purchase them.
+					From 1996 to 2023, commercial vehicle crossings in Texas consistently increased, with accelerated growth starting around 2010. The crossings grew approximately 260%, from 4.5 million to 11.8 million. Initially, the cumulative commercial crossings in Michigan and New York (bordering Toronto) were higher than in Texas, but Texas's growth has since widened the gap. This indicates the shift of industrial development favoring Mexico.
+
+					<br><br>
+
+					Texas's significant growth in commercial crossings, particularly after 2010, is likely due to increased industrial activity and its strategic location near Mexico. Major crossings like El Paso handle substantial industrial traffic, supporting supply chains in sectors such as automotive, electronics, and manufacturing. Texas serves as a crucial link in the US-Mexico industrial commodity flow. To anticipate future industrial growth, it is recommended to allocate more resources or heavy-duty security to tackle the busy crossings on the border of Texas. Other recommendations?
+
+
+				</p>
+
+				<h3>Non-Commercial Vehicle Crossings in Texas: 1996-2023</h3>
+
+				<p style = "margin-top: 50px;">
+
+					With our visualizations from 1996 to 2023, Texas consistently led in non-commercial crossings among the top three busiest states, experiencing significant growth until the early 2000s. While, California gradually closed the gap with Texas, especially after 2010. This growth metric could reflect the growing opportunities or recreational appeal California offers. Hence, It would be recommended to allocate resources to tackle the possible future increase of crossings on the Mexico-California, especially in the San Ysidro or Otay Mesa ports as the two most busy ports in the California border.
 
 				</p>
 
@@ -171,21 +260,170 @@
 
 		</div>
 
+		<div class = "col-sm-12">
+
+			<div class='tableauPlaceholder m-auto' id='viz1716135471761' style='position: relative'><noscript><a href='#'><img alt='Dashboard 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Jo&#47;JoveDathatonworkbook1&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='JoveDathatonworkbook1&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Jo&#47;JoveDathatonworkbook1&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716135471761');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		</div>
+
 	</div> 
 
-	<script type='text/javascript'>                    
+	<div class = "container section full" id = "weather-traffic">
 
-		var divElement = document.getElementById('viz1716078331710');
+		<div class = "row">
 
-		var vizElement = divElement.getElementsByTagName('object')[0];
+			<div class = "col-sm-1"></div>
 
-		vizElement.style.width='100%';
-		vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+			<div class = "col-sm-10">
 
-		var scriptElement = document.createElement('script');                   
-		scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; 
-		vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-	</script>
+				<h2>Weather & Traffic Conditions</h2>
+
+				<p style = "margin-bottom: 50px;">
+
+					With Texas and California being key states in allocating resource to the US-Mexico border. The visualization below can aid in further assisting local operations by showcasing a relationship between weather and traffic conditions.
+
+				</p>
+
+			</div>
+
+		</div>
+
+		<div class = "col-sm-12">
+
+			<div class='tableauPlaceholder m-auto' id='viz1716130926770' style='position: relative'><noscript><a href='#'><img alt='Vehicle Crossing [California &amp; Texas] Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;35&#47;35XS3XQDW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;35XS3XQDW' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;35&#47;35XS3XQDW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716130926770');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+
+		</div>
+
+		<div class = "row">
+
+			<div class = "col-sm-1"></div>
+
+			<div class = "col-sm-10">
+
+				<p style = "margin: 75px 0;">
+
+					On the other hand, in the US-Canada border, further emphasis could be put on New York and Michigan as central states with the most traffic for non-commercial crossings.
+
+				</p>
+
+			</div>
+
+		</div>
+
+		<div class = "col-sm-12">
+
+			<div class='tableauPlaceholder m-auto' id='viz1716136393701' style='position: relative'><noscript><a href='#'><img alt='Vehicle Crossing [New York &amp; Michigan] Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;XB&#47;XBZTM7MB8&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;XBZTM7MB8' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;XB&#47;XBZTM7MB8&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1716136393701');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');  
+			scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>                  
+
+		</div>
+
+	</div> 
+
+	<div class = "container section full">
+
+		<div class = "row">
+
+			<div class = "col-sm-1"></div>
+
+			<div class = "col-sm-10">
+
+				<h2>Tableau Source Files</h2>
+
+				<ul>
+
+					<li>
+
+						<a href = "https://public.tableau.com/shared/DJDCWFN6R?:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Yearly Commercial Crosses
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href = "https://public.tableau.com/views/Dash2_17161271130940/Dashboard2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Border Crossing Volume by Month (Non-Commercial) and Non-Commercial Crossing Trend Line
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href = "https://public.tableau.com/views/Dash2_17161271130940/Dashboard3?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Border Crossing Volume by Month (Commercial) AND Commercial Crossing Trend Line
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href = "https://public.tableau.com/views/JoveDathatonworkbook1/Dashboard2?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Top 3 Busiest States (Industrial vs Commercial)
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href = "https://public.tableau.com/views/BusiestPorts1/BusiestPorts?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Busiest Ports
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href = "https://public.tableau.com/views/BusiestStates1/BusiestStates?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Busiest States
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href = "https://public.tableau.com/shared/35XS3XQDW?:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Vehicle Crossing (California & Texas)
+
+						</a>
+
+					</li>
+
+					<li>
+
+						<a href = "https://public.tableau.com/shared/6YPFKY5DN?:display_count=n&:origin=viz_share_link" target = "blank">
+
+							Vehicle Crossing (New York & Michigan)
+
+						</a>
+
+					</li>
+
+				</ul>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<footer>
+
+		<p>Crossy Road Team @ DubsTech Datathon 2024</p>
+
+	</footer>
 
 	<!-- Bootstrap 4.1 JavaScript -->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
