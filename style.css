@@ -54,12 +54,14 @@ nav a:hover, nav a:focus, nav a:active {
 header {
 	min-height: 100vh;
 	text-align: center;
-	padding-top: 17.5%;
+	padding-top: 16%;
 }
 
 header h1 {
-	font-size: 2.75em;
+	font-size: 2.65em;
+	line-height: 1.5em;
 	font-weight: 700;
+	margin-top: 25px;
 	margin-bottom: 50px;
 }
 
@@ -165,7 +167,7 @@ footer p {
 	}
 
 	header {
-		padding-top: 22%;
+		padding-top: 20%;
 	}
 
 	header h1 {
@@ -181,7 +183,7 @@ footer p {
 	}
 
 	header {
-		padding-top: 30%;
+		padding-top: 27%;
 	}
 
 	div.panel {
